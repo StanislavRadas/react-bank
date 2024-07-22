@@ -1,0 +1,78 @@
+.main__recive {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.form__recive {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form__recive--block{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.label__amount {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+.divider {
+    border: 1px solid rgba(233, 232, 235, 1);
+    width: 350px;
+}
+
+.payment__block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.payment__title {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+.stripe {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(29, 29, 31, 1);
+}
+
+.stripe__block {
+    padding: 16px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(233, 232, 235, 1);
+    border-radius: 12px;
+}
+
+.stripe__block:hover {
+    opacity: 0.7;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.coinbase__block {
+    padding: 16px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(233, 232, 235, 1);
+    border-radius: 12px;
+}
+
+.coinbase__block:hover {
+    opacity: 0.7;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}

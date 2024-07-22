@@ -1,18 +1,22 @@
-// Підключаємо роутер до бек-енду
-const express = require('express')
-const router = express.Router()
+const express = require('express');
+const router = express.Router();
 
-// Підключіть файли роутів
-// const test = require('./test')
-// Підключіть інші файли роутів, якщо є
+const signup = require('./signup');
+const confirm = require('./confirm');
+const signin = require('./signin');
+const recovery = require('./recovery');
+const settings = require('./settings');
+const send = require('./send');
 
-// Об'єднайте файли роутів за потреби
-// router.use('/', test)
-// Використовуйте інші файли роутів, якщо є
+router.use('/', signup);
+router.use('/', confirm);
+router.use('/', signin);
+router.use('/', recovery);
+router.use('/', settings);
+router.use('/', send);
 
 router.get('/', (req, res) => {
-  res.status(200).json('Hello World')
-})
+  res.status(200).json('Hello World');
+});
 
-// Експортуємо глобальний роутер
-module.exports = router
+module.exports = router;

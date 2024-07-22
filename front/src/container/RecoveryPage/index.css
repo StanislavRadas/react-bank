@@ -1,0 +1,29 @@
+.recovery__form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.btn__submit--recovery {
+    align-self: center;
+    padding: 20px 136px;
+    background-color: rgba(119, 92, 229, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+.btn__submit--recovery:hover {
+    opacity: 0.7;
+    transition-duration: 0.7s;
+}
+
+.alert__login {
+    color: red;
+}
+
+.alert__success {
+    color: green;
+}

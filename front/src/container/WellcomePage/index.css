@@ -1,0 +1,88 @@
+.page {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.page__block {
+    display: flex;
+    flex-direction: column;
+    width: 395px;
+}
+
+.main {
+    padding-top: 100px;
+    margin-bottom: 34px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background-image: url("../../../public/MainBackGround.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+    height: 580px;
+    z-index: 0;
+}
+
+.second__bg {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 130px;
+    background-image: url("../../../public/mainsecondbg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.title {
+    font-size: 42px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+
+.text {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.button__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px 15px;
+    gap: 12px;
+    z-index: 2;
+}
+
+.btn__sign-up {
+    padding: 20px 140px;
+    border-radius: 12px;
+    background-color: rgba(119, 92, 229, 1);
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn__sign-up:hover {
+    opacity: 0.7;
+    transition-duration: 0.7s;
+}
+
+.btn__sign-in {
+    padding: 20px 140px;
+    border-radius: 12px;
+    border: 2px solid rgba(119, 92, 229, 1);
+    cursor: pointer;
+    color: rgba(119, 92, 229, 1);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn__sign-in:hover {
+    opacity: 0.7;
+    transition-duration: 0.7s;
+}

@@ -1,0 +1,90 @@
+.sett__main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form__sett--email {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sett__title--email {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+.block__email--sett {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.label__email--change {
+    font-size: 14px;
+    color: rgba(29, 29, 31, 1);
+}
+
+.input__email--change {
+    padding: 20px 16px;
+    width: 350px;
+    border: 1px solid rgba(233, 232, 235, 1);
+    border-radius: 12px;
+}
+
+.input__email--change:hover {
+    cursor: pointer;
+    border-color: rgba(119, 92, 229, 1);
+    transition-duration: 0.7s;
+}
+
+.btn__save {
+    width: 350px;
+    padding: 16px;
+    border: 1px solid rgba(119, 92, 229, 1);
+    border-radius: 12px;
+    color: rgba(119, 92, 229, 1);
+}
+
+.btn__save:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition-duration: 0.7s;
+}
+
+.form__sett--password {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn__logout {
+    width: 350px;
+    padding: 16px;
+    border: 1px solid rgba(242, 49, 82, 1);
+    border-radius: 12px;
+    color: rgba(242, 49, 82, 1);
+}
+
+.btn__logout:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition-duration: 0.7s;
+}
+
+.password__field--change {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 16px;
+    width: 350px;
+    border: 1px solid rgba(233, 232, 235, 1);
+    border-radius: 12px;
+}
+
+.password__field--change:hover {
+    cursor: pointer;
+    border-color: rgba(119, 92, 229, 1);
+    transition-duration: 0.7s;
+}
